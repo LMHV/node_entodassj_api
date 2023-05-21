@@ -1,7 +1,8 @@
 import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
-//import exphbs from 'express-handlebars';
+require('dotenv').config()
+
 
 class Application{
 

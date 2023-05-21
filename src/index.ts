@@ -1,5 +1,7 @@
 import App from './app';
 import database from './database';
+import dotenv from 'dotenv'
+require('dotenv').config()
 
 async function main(){
     // DB connection
